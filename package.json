@@ -8,16 +8,15 @@
         "example": "example"
     },
     "dependencies": {
-        "sockjs": "^0.3.24"
+        "sockjs": "^0.3.24",
+        "sockjs-client": "^1.6.1"
     },
-    "bundledDependencies": [
-        "sockjs-client"
-    ],
     "devDependencies": {
         "tape": "~1.0.4",
         "testling": "^1.7.3",
         "through": "~2.3.4"
     },
+    "bundledDependencies": false,
     "scripts": {
         "test": "testling ."
     },
